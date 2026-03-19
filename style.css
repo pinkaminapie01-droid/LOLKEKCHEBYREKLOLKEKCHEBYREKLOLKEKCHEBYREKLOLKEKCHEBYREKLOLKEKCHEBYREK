@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: #000;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 32px;
+    font-size: 16px;
+}
+
+.hero-page {
+    background-image: url('images/Rectangle\ 15.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 735px;
+}
+
+.hero-content {
+    margin-top: 64px;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    color: #fff;
+    margin: 0 0 16px 0;
+    max-width: 800px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 0 16px 0;
+}
+
+.hero-link {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.catalog {
+    padding: 80px 0;
+}
+
+.catalog-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+
+.card {
+    width: calc(33.333% - 22px);
+    margin-bottom: 30px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.card-name {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.card-desc {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.card-price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #f7f6f6;
+    padding: 80px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
